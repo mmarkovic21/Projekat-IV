@@ -1,0 +1,30 @@
+Grad: Èaèak
+Lokacija 1: OPPOSITE MERKATOR TC Roda
+Adresa i telefon 1: Braæe Spasiæ bbtel +381 66 841 88 90
+Radno vreme:Pon - Ned: 09 - 22 h
+
+Grad: Èaèak
+Lokacija 2: Stop Shop
+Adresa i telefon 2: Ul. Bul. Vuka Karadžiæa 80 – lokal L09, tel: +381668418941
+Radno vreme:Pon - Ned: 10 - 22 h
+
+Telefon:   +381 (0) 11 7858078
+E-mail:   webshop@opposite-fashion.com
+
+Dodatni kontakt telefon 1:   +381 (0) 66 841 88 81
+Dodatni kontakt telefon 2:   +381 (0) 66 841 89 06
+
+E-mail posao:   posao@opposite-fashion.com
+E-mail marketing:   marketing@opposite-fashion.com
+
+RegistrationTest ---> vrši se testiranje registracije korisnika: false
+LogInTest ---> vrši se testiranje prijave korisnika na sajt: true
+CheckRegisterDataTest ---> vrši se testiranje podataka korisnika, da li su podaci pri registraciji identièni sa podacima pri prijavi: true
+ThreeProductsTest ---> vrši se testiranje dodavanja tri proizvoda u korpu: true
+RemoveProductsFromCartTest ---> vrši se testiranje brisanja proizvoda iz korpe: true
+AddAddressTest ---> vrši se testiranje dodavanja nove adrese korisnika: true
+CheckCartTest ---> vrši se testiranje cene proizvoda u korpi, da li su iz razlièitih kategorija kao i da li se u korpi nalazi tri proizvoda: true
+TitleTest ---> vrši se testiranje naslova stranice: true
+UrlTest ---> vrši se testiranje URL-a web stranice: true
+PerformanceTest ---> vrši se testiranje proseènog otvaranja pet razlièitih stranica: true
+CompanyDataTest ---> vrši se prikupljanje podataka o kompaniji i upisivanje u .txt fajl: true

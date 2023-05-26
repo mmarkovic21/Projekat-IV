@@ -1,0 +1,1591 @@
+{
+  "id": "ed333dfc-139f-410a-9fcf-78669f17ac2c",
+  "version": "2.0",
+  "name": "Opposite",
+  "url": "https://www.opposite-fashion.com/",
+  "tests": [{
+    "id": "9d93ce85-dcc1-41d3-b7cf-ae544bd70c69",
+    "name": "CheckRegisterData",
+    "commands": [{
+      "id": "a05e58bf-fbd6-4d2a-91c4-ab9f90538800",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1344d35-7f65-47b9-8c34-c621959e7570",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6306310f-1a80-42ee-9d8b-52308f564f2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13f2fb76-0462-4210-b337-ae85066d5361",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94de119-75b8-4752-a3af-7901be58b05e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijava i registracija",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a64bf641-d019-448a-9609-c3cc08959a56",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "7afa443e-ed92-49cf-929c-78033ba1c97c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08631e68-09ac-43ed-b480-07bb74c3ee25",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "fbd19027-cad2-43cb-9967-75e306d9c4ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#send2 > span > span",
+      "targets": [
+        ["css=#send2 > span > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2670334-e99b-4bd6-921c-18ed33bf7e08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f19ea04-83f4-49d9-89e1-9e5c5efd8009",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moj nalog",
+      "targets": [
+        ["linkText=Moj nalog", "linkText"],
+        ["css=#menu_link > .first > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Moj nalog')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Moj nalog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6c326f-4c39-4703-addd-ac135f2ae9f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Informacije naloga",
+      "targets": [
+        ["linkText=Informacije naloga", "linkText"],
+        ["css=.block-content li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Informacije naloga')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/edit/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Informacije naloga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec1b5f9-9cb2-43a3-b8a0-0809b6a2b89a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/customer/account/edit/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e893e817-c34a-4897-af47-1948b2dddf9c",
+      "comment": "",
+      "command": "check",
+      "target": "css=#email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d8b64552-7479-4010-9541-a7d517051022",
+    "name": "Registration",
+    "commands": [{
+      "id": "2057c4f2-0233-4612-b8be-ae0772a0034a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37148c3f-7d34-41bd-898b-e2c373a40442",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "936303aa-5e0b-4c1c-a0bf-b00a89009f8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8adc89ae-746c-4270-a278-c4880cb73fe3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186a38cb-7027-4a12-836d-885ee786f8bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijava i registracija",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3878f3e0-f27b-4709-9d0a-2965ff3f1dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1) > span > span",
+      "targets": [
+        ["css=.button:nth-child(1) > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div[2]/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "491cdfb6-0ef9-4cae-9e69-4ec7b49c6e48",
+      "comment": "",
+      "command": "type",
+      "target": "css=#firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Marija"
+    }, {
+      "id": "709e3b2c-42e3-4d6e-bc64-e80a4a1f83de",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "061e5461-d388-4a0b-adff-06ef3cf5c9d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Markovic"
+    }, {
+      "id": "3dc42fac-829c-4747-9619-497809cd1d76",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931b9211-de25-4a8e-a88f-7f3c0a718ac8",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "c0e1eb10-d0ac-4f63-8b84-8497a32913e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b543d2-8066-40b7-b9e0-af831beb2e15",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "696ca68a-59f8-4a79-9bc6-a8383920f13a",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmation",
+      "targets": [
+        ["id=confirmation", "id"],
+        ["name=confirmation", "name"],
+        ["css=#confirmation", "css:finder"],
+        ["xpath=//input[@id='confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a62b51-dbfa-4a3a-8a66-dacd6a8caa41",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmation",
+      "targets": [
+        ["id=confirmation", "id"],
+        ["name=confirmation", "name"],
+        ["css=#confirmation", "css:finder"],
+        ["xpath=//input[@id='confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "cef88a6a-2908-49d5-9b1b-cd3cedfe2ba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > span",
+      "targets": [
+        ["css=span > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f3eb9ba9-ec58-4b85-afbc-202b7fb6d844",
+    "name": "LogIn",
+    "commands": [{
+      "id": "895347df-55f8-4133-ac07-f0f6c9ea6482",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c20b0cd1-ed75-4aa3-baf7-238f87230700",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71b4e765-8cf4-4991-ab67-493e5234f020",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6347fc3-e962-4347-8ebd-df896712d48f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a04af132-ae91-4e54-ab7a-13b61700dbdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijava i registracija",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2630bc26-06c2-4331-8150-7a37494fbd6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "7e0a3a01-358a-4354-b41a-1e1d8c478d8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79edeef-5886-4e91-b767-66ff68764404",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "92687eaa-9593-4d17-a4a0-99e03a6c05ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#send2 > span > span",
+      "targets": [
+        ["css=#send2 > span > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e0cc358b-e0fb-43b2-b274-266fccc03a9c",
+    "name": "ThreeProducts",
+    "commands": [{
+      "id": "114416f5-3961-472c-8c8f-64851db32a6d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67c6d61a-4eed-4abf-bf90-419ba035511e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9decf13-14b1-442b-b8f4-b2fa05c88bed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0738c43f-8aff-466b-b064-2f0798613145",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu152 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu152 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu152']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95b7bb4b-330b-4b51-aafb-7c0d454f6dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itemMenuName:nth-child(12) > span",
+      "targets": [
+        ["css=.itemMenuName:nth-child(12) > span", "css:finder"],
+        ["xpath=//div[@id='block1152']/div/div/a[12]/span", "xpath:idRelative"],
+        ["xpath=//a[12]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6297f2-dca7-4d74-a407-2f40f9ac7e8b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,126)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2376fcad-167b-4814-ae06-dca441b9bbba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-grid:nth-child(3) > .col-xl-3:nth-child(1) .product-image img",
+      "targets": [
+        ["css=.products-grid:nth-child(3) > .col-xl-3:nth-child(1) .product-image img", "css:finder"],
+        ["xpath=//img[@alt='Ženske čizme - LH051750']", "xpath:img"],
+        ["xpath=//ul[2]/li/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97a6c52-03b5-49aa-8d35-a596f14f4c30",
+      "comment": "",
+      "command": "click",
+      "target": "id=amconf-image-240",
+      "targets": [
+        ["id=amconf-image-240", "id"],
+        ["css=#amconf-image-240", "css:finder"],
+        ["xpath=//img[@alt='SLV']", "xpath:img"],
+        ["xpath=//img[@id='amconf-image-240']", "xpath:attributes"],
+        ["xpath=(//div[@id='amconf-images-container-92']/img)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82656d37-f50d-4e4f-8855-ff481fa7ba1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=amconf-image-221",
+      "targets": [
+        ["id=amconf-image-221", "id"],
+        ["css=#amconf-image-221", "css:finder"],
+        ["xpath=//div[@id='amconf-image-221']", "xpath:attributes"],
+        ["xpath=(//div[@id='amconf-images-container-143']/div)[2]", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6649c68f-b35a-460f-8dfe-ef29101f56ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button > span > span",
+      "targets": [
+        ["css=.button > span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4123bbc-4b8e-4691-a963-575e2ed93ef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Opposite Shoes']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ecd0923-2184-4e11-bcd1-d7a3197c7717",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce7e8fa-cc9b-4f4b-8828-b5230cb09fd1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu152 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu152 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu152']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e48848-2223-46f1-a89e-845f7390586f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itemMenuName:nth-child(6) > span",
+      "targets": [
+        ["css=.itemMenuName:nth-child(6) > span", "css:finder"],
+        ["xpath=//div[@id='block1152']/div/div/a[6]/span", "xpath:idRelative"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ženske čizme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c2af7ba-b3bd-4b10-9472-54bc60f215e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,112)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a549f55-6e35-49d0-b31e-d3a9ef224609",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.toolbar-bottom li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[17]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.opposite-fashion.com/zenska-obuca/zenske-cizme.html?p=3')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div[2]/ol/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0efd2b-0c18-44c4-94bc-2238690e9e7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xl-3:nth-child(2) > .item-inner:nth-child(1) .product-image img",
+      "targets": [
+        ["css=.col-xl-3:nth-child(2) > .item-inner:nth-child(1) .product-image img", "css:finder"],
+        ["xpath=//img[@alt='UZUN']", "xpath:img"],
+        ["xpath=//ul[4]/li[2]/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5090b71a-edc1-4c01-bb06-09582b6aff8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=amconf-image-222",
+      "targets": [
+        ["id=amconf-image-222", "id"],
+        ["css=#amconf-image-222", "css:finder"],
+        ["xpath=//div[@id='amconf-image-222']", "xpath:attributes"],
+        ["xpath=(//div[@id='amconf-images-container-143']/div)[2]", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "641059db-eee8-4ba6-8bff-348882d2782b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cart > span > span",
+      "targets": [
+        ["css=.btn-cart > span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a6f088-5815-4c21-9199-27983c09e1b0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu489 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu489 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu489']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5761343f-5370-4946-b6b0-e1f3469c4fa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nochild:nth-child(2) > span",
+      "targets": [
+        ["css=.nochild:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='block1489']/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ženski rančevi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b256d0a6-4e0a-40d0-8ad4-cd8f16078a76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-grid:nth-child(5) > .col-xl-3:nth-child(3) .product-image img",
+      "targets": [
+        ["css=.products-grid:nth-child(5) > .col-xl-3:nth-child(3) .product-image img", "css:finder"],
+        ["xpath=//img[@alt='Ženski rančevi - T080006']", "xpath:img"],
+        ["xpath=//ul[4]/li[3]/div/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0fb2a1d-861a-4b77-80b4-f8af1a808ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cart > span > span",
+      "targets": [
+        ["css=.btn-cart > span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d2ac1bd-1ad9-414f-8b67-44af85128c41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-cart-title > a",
+      "targets": [
+        ["linkText=0", "linkText"],
+        ["css=.top-cart-title > a", "css:finder"],
+        ["xpath=//div[@id='mini_cart_block']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9b63061-b46f-43e4-9734-6259052ac50c",
+    "name": "AddAddress",
+    "commands": [{
+      "id": "ec8fd413-d210-4458-ae4e-bdc8320ea8dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "861bd41e-0275-4a43-879b-c8aca660fc36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87d97c26-d281-44e3-9140-ec2b3bbe01ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0178222-11c2-4433-89ca-69375a918ad8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu489 > .parentMenu > a",
+      "targets": [
+        ["css=#pt_menu489 > .parentMenu > a", "css:finder"],
+        ["xpath=//div[@id='pt_menu489']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.opposite-fashion.com/zenske-torbe.html')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f9c2e9-baa5-41c0-9b06-bf030d9f669b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#pt_menu489 > .parentMenu > a",
+      "targets": [
+        ["css=#pt_menu489 > .parentMenu > a", "css:finder"],
+        ["xpath=//div[@id='pt_menu489']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.opposite-fashion.com/zenske-torbe.html')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "955661be-135d-44c5-bbaa-47f10f8a71c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc37ac8f-4126-4c6a-8a67-fac0dd11afdc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prijava i registracija",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4e3ccd5-109f-4f25-84c4-3e9b77ad43d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a228f73e-c2df-439e-b0ed-ad12e7e31f72",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "39016b35-c97b-47e3-b124-f678e725bd9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f58892-ba96-41d1-b763-a0a55d50a0a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "143294a9-2417-4e0e-9d60-0be5346169d4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3b530dc8-a0ed-4d01-8de6-83bcf2649a05",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Vaše adrese')]",
+      "targets": [
+        ["linkText=Vaše adrese", "linkText"],
+        ["css=.block-content li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vaše adrese')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/address/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vaše adrese')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbbf3bcd-f4d4-4e21-8b51-805070f85cda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2) > span",
+      "targets": [
+        ["css=.button:nth-child(2) > span", "css:finder"],
+        ["xpath=//div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aefd90d-e11b-466c-986f-993fe1daca2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18851ef-7cbb-4026-8fb6-be7fa5afdfac",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "0632551309"
+    }, {
+      "id": "d1b6e86f-5548-460b-a4e1-bb7ae0ce324a",
+      "comment": "",
+      "command": "click",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "490a3339-e3de-49d4-8734-7372e96c4b53",
+      "comment": "",
+      "command": "type",
+      "target": "id=street_1",
+      "targets": [
+        ["id=street_1", "id"],
+        ["name=street[]", "name"],
+        ["css=#street_1", "css:finder"],
+        ["xpath=//input[@id='street_1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": "Kralja Petra 15"
+    }, {
+      "id": "1bdd3c35-424f-4fef-9488-81d1548b7a54",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a7aa73-4998-4015-94d5-746dbc902290",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Cacak"
+    }, {
+      "id": "7e2b3eb5-7fbf-4263-8953-4872c25f4f30",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8507aba-c55b-494b-9492-16399c7a7607",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=postcode", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[2]/ul/li[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "32000"
+    }, {
+      "id": "dd43ab06-3102-4989-8320-8cdcf7be8d2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > span",
+      "targets": [
+        ["css=span > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "03a023d3-7bf2-4fc6-807b-cc0213de8817",
+    "name": "CheckCart",
+    "commands": [{
+      "id": "2ca4b58a-2133-43d3-be2b-ce40a2799a15",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b47729da-e41c-4846-b190-85dd5832c72b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927d3f94-6230-41b4-8072-b092c78716c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c23fe95f-fd13-476c-a06f-54d212cacaef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2d62fe4-239c-4086-8103-f5aa3dbef732",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[@id='menu_link']/li[5]/a",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9319e0b7-77f3-4973-b577-dc6d012e8dd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbbe8906-b4a5-44c3-83fc-43dd4d1edd6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "3dccd690-d640-4629-9fb9-59db65155a30",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f62ae53e-0907-49fd-8944-a40d86ac5a10",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "cc521c27-987c-42cc-9f64-1b6844008ba9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ce3cca33-3f24-43f3-b048-586e94ec599e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu152 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu152 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu152']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "288f5366-bc66-4d1c-a4ab-134fc7f1f1e6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Ženske čizme')]",
+      "targets": [
+        ["css=.itemMenuName:nth-child(6) > span", "css:finder"],
+        ["xpath=//div[@id='block1152']/div/div/a[6]/span", "xpath:idRelative"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ženske čizme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d0da1e-09ad-4fd7-a329-7142ad93ffed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-grid:nth-child(3) > .col-xl-3:nth-child(1) .products img",
+      "targets": [
+        ["css=.products-grid:nth-child(3) > .col-xl-3:nth-child(1) .products img", "css:finder"],
+        ["xpath=//img[@alt='UZUN']", "xpath:img"],
+        ["xpath=//ul[2]/li/div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47269003-2d11-457b-862c-b985fdc9d477",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,72)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f89249e-dc27-438f-8f78-0c386ff83b30",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,119)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea0e2d06-3bb7-42c0-ac3f-0249926a5f2a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span",
+      "targets": [
+        ["css=span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42eab6ba-f0a3-4bdc-b483-fb7ac3ef229b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu153 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu153 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu153']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae85e82-9f87-4bc8-94df-291834a9b35b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#block1153 .itemMenuName:nth-child(2) > span",
+      "targets": [
+        ["css=#block1153 .itemMenuName:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='block1153']/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dečije čizme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f534833-3fe5-499d-b0d3-51ec6278676b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,116)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16ee7575-90a9-457b-ae7f-cd406cb04b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-grid:nth-child(2) > .col-xl-3:nth-child(1) .products img",
+      "targets": [
+        ["css=.products-grid:nth-child(2) > .col-xl-3:nth-child(1) .products img", "css:finder"],
+        ["xpath=//img[@alt='Dečija čizma - CH85373']", "xpath:img"],
+        ["xpath=//div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dea43f46-61be-4ccc-acb4-e122e749b27b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "931264e0-f55b-4c4c-8bbb-0566a0f582a2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='amconf-image-259']",
+      "targets": [
+        ["id=amconf-image-259", "id"],
+        ["css=#amconf-image-259", "css:finder"],
+        ["xpath=//div[@id='amconf-image-259']", "xpath:attributes"],
+        ["xpath=(//div[@id='amconf-images-container-143']/div)[2]", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0578a93e-6219-4c91-945c-322d72993e05",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9087252f-8370-4a3a-88b6-028254d84668",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cart > span > span",
+      "targets": [
+        ["css=.btn-cart > span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db70670-b2bc-463f-94f3-e8de12a47b40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#pt_menu489 > .parentMenu span",
+      "targets": [
+        ["css=#pt_menu489 > .parentMenu span", "css:finder"],
+        ["xpath=//div[@id='pt_menu489']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc3d3c6-89bc-42fc-97b6-d25dba05713e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nochild:nth-child(2) > span",
+      "targets": [
+        ["css=.nochild:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='block1489']/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/div/div/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ženski rančevi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2c3ffb-55e6-432d-a59d-6754e4a70d66",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,729)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d83dad1-8d52-4485-80ea-0176dbfd5d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products-grid:nth-child(5) > .col-xl-3:nth-child(2) .products img",
+      "targets": [
+        ["css=.products-grid:nth-child(5) > .col-xl-3:nth-child(2) .products img", "css:finder"],
+        ["xpath=//img[@alt='Ženski rančevi - T080006']", "xpath:img"],
+        ["xpath=//ul[4]/li[2]/div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26025dbe-f76d-470b-89e8-996d30d1f57b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cart > span > span",
+      "targets": [
+        ["css=.btn-cart > span > span", "css:finder"],
+        ["xpath=//form[@id='product_addtocart_form']/div/div[2]/div/div[5]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced9aabe-ba2b-4c3b-a661-c790426844a3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/checkout/cart/",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "758c862e-4d1a-414f-a803-778ab5dfcdc0",
+    "name": "CompanyData",
+    "commands": [{
+      "id": "ed569fc8-b7fd-4cf8-b366-5c7d13cd3839",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2530acd-1d56-4e4e-b07f-4b2effbe4eb4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "243e1ae9-844e-4388-899d-1bb53052100c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd51a5eb-5715-4603-8a28-039545a59091",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,274)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd9767dc-84e1-4a62-b33d-0ff71aea39e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=O nama",
+      "targets": [
+        ["linkText=O nama", "linkText"],
+        ["css=.col-sm-6:nth-child(3) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'O nama')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/o-nama')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'O nama')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c827476-8d09-413b-a3d9-27f09804479d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Opposite maloprodaje",
+      "targets": [
+        ["linkText=Opposite maloprodaje", "linkText"],
+        ["css=.footer-static-content .first > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Opposite maloprodaje')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/maloprodaje')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Opposite maloprodaje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "999daa57-06a6-4661-bb71-a4588dda66a9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[contains(.,'  marketing@opposite-fashion.com')]",
+      "targets": [
+        ["css=.address > .last:nth-child(6)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/ul/li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'  marketing@opposite-fashion.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0bbd5d78-24e0-44b7-a8a4-f1648f5062b0",
+    "name": "RemoveProductsFromCart",
+    "commands": [{
+      "id": "1c4b3fa8-9f1b-4950-a893-158a4c64efd7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.opposite-fashion.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "278426a7-f890-43e8-9c05-31867cea1173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2535d90-bbeb-4032-bd39-d985fcec5e0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-close",
+      "targets": [
+        ["css=.b-close", "css:finder"],
+        ["xpath=//div[@id='newsletter_pop_up']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aae4957-dbdf-4f4f-97fb-01a743e6dfbb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-dropit",
+      "targets": [
+        ["css=.menu-dropit", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "221a574a-91e9-4167-a355-0ca08ec7a524",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Prijava i registracija')]",
+      "targets": [
+        ["linkText=Prijava i registracija", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prijava i registracija')]", "xpath:link"],
+        ["xpath=//ul[@id='menu_link']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/customer/account/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prijava i registracija')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c68b316-012f-4ef4-83c9-60ccf1401d9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "marijaamarkovic21@gmail.com"
+    }, {
+      "id": "5268eb7a-2015-4604-8668-cf3abddf5757",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c13083f7-70bd-4c4f-95bf-f64abebd9ff8",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "142017Marija"
+    }, {
+      "id": "164cae1e-26f9-4e3e-b790-46c30cdc0ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#send2 > span > span",
+      "targets": [
+        ["css=#send2 > span > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "595a50c5-8acf-4af7-88af-b4b73509bea8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mini_cart_block']/div/div/div/a",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.top-cart-title > a", "css:finder"],
+        ["xpath=//div[@id='mini_cart_block']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.opposite-fashion.com/checkout/cart/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90ba68b-5d50-4665-952f-b434e0e0d638",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='empty_cart_button']/span/span",
+      "targets": [
+        ["css=#empty_cart_button > span > span", "css:finder"],
+        ["xpath=//button[@id='empty_cart_button']/span/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d318df07-3bad-454b-a1a9-f4a504d21555",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9d93ce85-dcc1-41d3-b7cf-ae544bd70c69"]
+  }],
+  "urls": ["https://shop.mango.com/", "https://www.opposite-fashion.com/"],
+  "plugins": []
+}
